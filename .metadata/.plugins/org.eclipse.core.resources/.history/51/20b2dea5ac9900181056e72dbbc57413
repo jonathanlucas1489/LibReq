@@ -1,0 +1,7 @@
+
+public class Requisicao {
+	
+	private String paciente;
+	private String cartao;
+	
+}
