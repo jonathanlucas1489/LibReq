@@ -57,34 +57,11 @@ public class RequisicaoController {
 				return verificaEspecialidade(especialidade).get(i).toString();
 			}
 		} 
-		return "Requisição Não encontrada.";
+		throw new IllegalArgumentException("Erro na busca por tutor: Tutor nao encontrado");
+
 	}
 	
+
 	
 	
-	public void verificaNome(String nome) {
-		if (nome.trim().equals("")) {
-			throw new IllegalArgumentException("Nome não pode ser vazio.");
-		} 
-	}
-	
-	public void verificaCartao(String cartao) {
-		if (cartao.trim().equals("")) {
-			throw new IllegalArgumentException("O CNS não pode ser vazio.");
-		} else if (cartao.length() < 15 || cartao.length() > 15) {
-			throw new IllegalArgumentException("O CNS deve possuir 15 digitos.");
-		}
-	}
-	
-	public void verificaData(String data) {
-		if (data.trim().equals("")) {
-			throw new IllegalArgumentException("Data não pode ser vazio.");
-		} 
-	}
-	
-	public void verificaEspecialidadeValida(String especialidade) {
-		if (especialidade.trim().equals("")) {
-			throw new IllegalArgumentException("Especialidade não pode ser vazio.");
-		}
-	}
 }

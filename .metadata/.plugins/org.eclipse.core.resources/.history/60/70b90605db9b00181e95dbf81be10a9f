@@ -98,16 +98,6 @@ public class Main {
 		System.out.print("Cartão> ");		
 		String cartao = sc.nextLine();
 		
-		try {
-			sys.verificaCartao(cartao);
-			}
-		catch(IllegalArgumentException e) {
-				System.out.println("O CNS deve possuir 15 digitos.");
-				opcaoP(sys);
-				return; 
-		}
-			
-		
 		System.out.println(sys.procurarRequisicao(especialidade, cartao));
 	}
 	
@@ -119,15 +109,6 @@ public class Main {
 		
 		System.out.print("Cartão> ");	
 		String cartao = sc.nextLine();
-		
-		try {
-			sys.verificaCartao(cartao);
-			}
-		catch(IllegalArgumentException e) {
-				System.out.println("O CNS deve possuir 15 digitos.");
-				opcaoP(sys);
-				return; 
-		}
 		
 		System.out.print("Data do envio> ");		
 		String data = sc.nextLine();
@@ -145,15 +126,6 @@ public class Main {
 		
 		System.out.print("Cartão> ");	
 		String cartao = sc.nextLine();
-		
-		try {
-			sys.verificaCartao(cartao);
-			}
-		catch(IllegalArgumentException e) {
-				System.out.println("O CNS deve possuir 15 digitos.");
-				opcaoP(sys);
-				return; 
-		}
 		
 		System.out.print("Data da finalização> ");		
 		String data = sc.nextLine();

@@ -97,7 +97,6 @@ public class Main {
 		
 		System.out.print("Cartão> ");		
 		String cartao = sc.nextLine();
-		
 		try {
 			sys.verificaCartao(cartao);
 			}

@@ -71,7 +71,7 @@ public class RequisicaoController {
 	public void verificaCartao(String cartao) {
 		if (cartao.trim().equals("")) {
 			throw new IllegalArgumentException("O CNS não pode ser vazio.");
-		} else if (cartao.length() < 15 || cartao.length() > 15) {
+		} else if (cartao.length() < 15) {
 			throw new IllegalArgumentException("O CNS deve possuir 15 digitos.");
 		}
 	}

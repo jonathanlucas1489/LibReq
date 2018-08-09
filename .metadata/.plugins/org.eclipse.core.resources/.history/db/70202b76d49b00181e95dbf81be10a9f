@@ -19,18 +19,9 @@ public class Sistema {
 	}
 	
 	public void verificaNome(String nome) {
-		rc.verificaNome(nome);
+		if (nome.trim().equals("")) {
+			throw new IllegalArgumentException("Erro na doacao para tutor: totalCentavos nao pode ser menor que zero");
+		}
 	}
-	
-	public void verificaCartao(String cartao) {
-		rc.verificaCartao(cartao); 
-	}
-	
-	public void verificaData(String data) {
-		rc.verificaData(data);
-	}
-	
-	public void verificaEspecialidade(String especialidade) {
-		rc.verificaEspecialidadeValida(especialidade);
-	}
+
 }

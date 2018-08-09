@@ -22,8 +22,6 @@ public class Paciente {
 	public String getBairro() {
 		return bairro;
 	}
-	
-	
 
 	
 
