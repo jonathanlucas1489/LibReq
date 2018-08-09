@@ -24,25 +24,7 @@ public  class Requisicao {
 			this.especialidade = "Endocrinologista";
 		} else if (especialidade.equals("05")) {
 			this.especialidade = "Otorrinolargingologista";
-		} else if (especialidade.equals("06")) {
-			this.especialidade = "Nutricionista";
-		} else if (especialidade.equals("07")) {
-			this.especialidade = "Mastologista";
-		} else if (especialidade.equals("08")) {
-			this.especialidade = "Cardiologista";
-		} else if (especialidade.equals("09")) {
-			this.especialidade = "Gastrologista";;
-		} else if (especialidade.equals("10")) {
-			this.especialidade = "Dermatologista";
-		} else if (especialidade.equals("11")) {
-			this.especialidade = "Cirurgião Geral";
-		} else if (especialidade.equals("12")) {
-			this.especialidade = "Angiologista";
-		} else if (especialidade.equals("13")) {
-			this.especialidade = "Alergista";
-		} else if (especialidade.equals("14")) {
-			this.especialidade = "Patologia";
-		} 
+		}
 	}
 
 	

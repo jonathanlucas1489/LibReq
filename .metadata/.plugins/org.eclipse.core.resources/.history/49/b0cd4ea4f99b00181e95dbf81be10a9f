@@ -76,7 +76,7 @@ public class Main {
 			sys.verificaEspecialidade(especialidade);
 		}
 		catch(IllegalArgumentException e) {
-			System.out.println("Especialidade inválida, tente novamente." + e);
+			System.out.println("Especialidade inválida, tente novamente.");
 			opcaoC(sys);
 			return; 
 		}

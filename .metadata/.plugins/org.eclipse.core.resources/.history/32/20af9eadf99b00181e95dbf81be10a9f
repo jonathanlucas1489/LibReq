@@ -76,7 +76,7 @@ public class Main {
 			sys.verificaEspecialidade(especialidade);
 		}
 		catch(IllegalArgumentException e) {
-			System.out.println("Especialidade inválida, tente novamente." + e);
+			System.out.println("Especialidade inválida, tente novamente.");
 			opcaoC(sys);
 			return; 
 		}
@@ -94,6 +94,16 @@ public class Main {
 
 		System.out.print("Especialidade> ");		
 		String especialidade = sc.nextLine();
+		
+		try {
+			sys.verificaEspecialidade(especialidade);
+			}
+		catch(IllegalArgumentException e) {
+				System.out.println("Especialidade invalida");
+				opcaoP(sys);
+				return; 
+		}
+			
 		
 		System.out.print("Cartão> ");		
 		String cartao = sc.nextLine();
