@@ -1,7 +1,11 @@
+import java.io.Serializable;
 import java.util.ArrayList;
+import java.util.HashMap;
 
 
-public class RequisicaoController {
+public class RequisicaoController  implements Serializable {
+	private static final long serialVersionUID = 1L;
+
 	private ArrayList<Requisicao> oftalmo;
 	private ArrayList<Requisicao> gineco;
 	private ArrayList<Requisicao> neuro;
@@ -16,81 +20,65 @@ public class RequisicaoController {
 	private ArrayList<Requisicao> angio;
 	private ArrayList<Requisicao> alergista;
 	private ArrayList<Requisicao> patologia;
+	private HashMap<String, ArrayList<Requisicao>> codigos;
 	
 	public RequisicaoController () {
+		this.codigos = new HashMap<String, ArrayList<Requisicao>>();
 		this.oftalmo = new ArrayList<Requisicao>();
+		codigos.put("01", oftalmo);
 		this.gineco = new ArrayList<Requisicao>();
+		codigos.put("02", gineco);
 		this.neuro = new ArrayList<Requisicao>();
+		codigos.put("03", neuro);
 		this.endocrino = new ArrayList<Requisicao>();
+		codigos.put("04", endocrino);
 		this.otorrino = new ArrayList<Requisicao>();
+		codigos.put("05", otorrino);
 		this.nutricio = new ArrayList<Requisicao>();
+		codigos.put("06", nutricio);
 		this.masto = new ArrayList<Requisicao>();
+		codigos.put("07", masto);
 		this.cardio = new ArrayList<Requisicao>();
+		codigos.put("08", cardio);
 		this.gastro = new ArrayList<Requisicao>();
+		codigos.put("09", gastro);
 		this.dermato = new ArrayList<Requisicao>();
+		codigos.put("10", dermato);
 		this.cirurgiao = new ArrayList<Requisicao>();
+		codigos.put("11", cirurgiao);
 		this.angio = new ArrayList<Requisicao>();
+		codigos.put("12", angio);
 		this.alergista = new ArrayList<Requisicao>();
+		codigos.put("13", alergista);
 		this.patologia = new ArrayList<Requisicao>();
+		codigos.put("14", patologia);
 
 	}
 	
-	public ArrayList<Requisicao> verificaEspecialidade(String especialidade) {
-		if(especialidade.equals("01")) {
-			return oftalmo;
-		} else if (especialidade.equals("02")) {
-			return gineco;
-		} else if (especialidade.equals("03")) {
-			return neuro;
-		} else if (especialidade.equals("04")) {
-			return endocrino;
-		} else if (especialidade.equals("05")) {
-			return otorrino;
-		} else if (especialidade.equals("06")) {
-			return nutricio;
-		} else if (especialidade.equals("07")) {
-			return masto;
-		} else if (especialidade.equals("08")) {
-			return cardio;
-		} else if (especialidade.equals("09")) {
-			return gastro;
-		} else if (especialidade.equals("10")) {
-			return dermato;
-		} else if (especialidade.equals("11")) {
-			return cirurgiao;
-		} else if (especialidade.equals("12")) {
-			return angio;
-		} else if (especialidade.equals("13")) {
-			return alergista;
-		} else if (especialidade.equals("14")) {
-			return patologia;
-		} 
-		return endocrino;
-	}
-	
+
 	public void cadastrarRequisicao(String cartao, String nome, String bairro, String especialidade, String data) {
-		Requisicao r = new Requisicao(cartao, nome, bairro, especialidade, data);	
-		verificaEspecialidade(especialidade).add(r);
+		Requisicao r = new Requisicao(cartao, nome, bairro, especialidade, data);
+		codigos.get(especialidade).add(r);
 	}
 	
 	public void enviarRequisicao(String especialidade, String cartao, String data) {
-		for(int i = 0; i < verificaEspecialidade(especialidade).size(); i++) {
-			if(verificaEspecialidade(especialidade).get(i).getPaciente().getCartao().equals(cartao)) {
-				verificaEspecialidade(especialidade).get(i).setEstado("Enviado no dia " + data);
+		for(int i = 0; i < codigos.get(especialidade).size(); i++) {
+			if(codigos.get(especialidade).get(i).getPaciente().getCartao().equals(cartao)) {
+				codigos.get(especialidade).get(i).setEstado("Enviado no dia " + data);
 			}}
 	}
 	
 	public void finalizarRequisicao(String especialidade, String cartao, String data) {
-		for(int i = 0; i < verificaEspecialidade(especialidade).size(); i++) {
-			if(verificaEspecialidade(especialidade).get(i).getPaciente().getCartao().equals(cartao)) {
-				verificaEspecialidade(especialidade).get(i).setEstado("Finalizado no dia " + data);
+		for(int i = 0; i < codigos.get(especialidade).size(); i++) {
+			if(codigos.get(especialidade).get(i).getPaciente().getCartao().equals(cartao)) {
+				codigos.get(especialidade).get(i).setEstado("Finalizado no dia " + data);
 			}}
 	}
 	
 	public String procurarRequisicao(String especialidade, String cartao) {
-		for(int i = 0; i < verificaEspecialidade(especialidade).size(); i++) {
-			if(verificaEspecialidade(especialidade).get(i).getPaciente().getCartao().equals(cartao)) {
-				return verificaEspecialidade(especialidade).get(i).toString();
+		for(int i = 0; i < codigos.get(especialidade).size(); i++) {
+			if(codigos.get(especialidade).get(i).getPaciente().getCartao().equals(cartao)) {
+				return codigos.get(especialidade).get(i).toString();
 			}
 		} 
 		return "Requisição Não encontrada.";
@@ -119,7 +107,7 @@ public class RequisicaoController {
 	}
 	
 	public void verificaEspecialidadeValida(String especialidade) {
-		String[] codigos = {"01","02","03","04","05","06","07","08","09"};
+		String[] codigos = {"00", "01","02","03","04","05","06","07","08","09"};
 		for(int i = 0; i < codigos.length; i++) {
 			if(codigos[i].contains(especialidade)) {
 				throw new IllegalArgumentException(codigos[i]);

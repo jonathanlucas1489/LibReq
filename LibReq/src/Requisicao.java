@@ -1,8 +1,10 @@
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public  class Requisicao {
-	
+public  class Requisicao  implements Serializable {
+	private static final long serialVersionUID = 1L;
+
 	private Paciente paciente;
 	private String estado;
 	private String especialidade;

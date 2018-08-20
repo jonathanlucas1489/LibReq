@@ -1,16 +1,17 @@
 import java.util.Scanner;
+import java.io.IOException;
+
 
 public class Main {
-	
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		
 		Sistema sys = new Sistema();
 		Scanner sc = new Scanner(System.in);
-		
+		ArquivoController ac = new ArquivoController();
 		String option = "";		
 		Menu m = new Menu();
-
+		
 		do {
 		
 			m.exibir();
@@ -20,7 +21,7 @@ public class Main {
 			switch (option) {
 			
 			case "C":
-				opcaoC(sys);
+				opcaoC(sys, ac);
 			break;
 			
 			case "E":
@@ -28,7 +29,7 @@ public class Main {
 			break;
 			
 			case "P":
-				opcaoP(sys);
+				opcaoP(sys, ac);
 			break;	
 			
 			case "F":
@@ -39,7 +40,7 @@ public class Main {
 	while(!option.equals("S"));
 	}
 	
-	public static void opcaoC(Sistema sys) {
+	public static void opcaoC(Sistema sys, ArquivoController ac) throws IOException {
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.print("Nome> ");
@@ -50,7 +51,7 @@ public class Main {
 		}
 		catch(IllegalArgumentException e) {
 			System.out.println("O nome não pode ser vazio!");
-			opcaoC(sys);
+			opcaoC(sys, ac);
 			return; 		
 		}
 		
@@ -62,7 +63,7 @@ public class Main {
 		}
 		catch(IllegalArgumentException e) {
 			System.out.println("O CNS deve possuir 15 digitos.");
-			opcaoC(sys);
+			opcaoC(sys, ac);
 			return; 
 		}
 		
@@ -77,7 +78,7 @@ public class Main {
 		}
 		catch(IllegalArgumentException e) {
 			System.out.println("Especialidade inválida, tente novamente." + e);
-			opcaoC(sys);
+			opcaoC(sys, ac);
 			return; 
 		}
 		
@@ -87,9 +88,11 @@ public class Main {
 		sys.cadastrarRequisicao(cartao, nome, bairro, especialidade, data);	
 		
 		System.out.print("CADASTRO REALIZADO! \n");
+		salvar(sys, ac);
 	}
 	
-	public static void opcaoP(Sistema sys) {
+	public static void opcaoP(Sistema sys, ArquivoController ac) throws IOException {
+		carregar(sys, ac);
 		Scanner sc = new Scanner(System.in);
 
 		System.out.print("Especialidade> ");		
@@ -103,7 +106,7 @@ public class Main {
 			}
 		catch(IllegalArgumentException e) {
 				System.out.println("O CNS deve possuir 15 digitos.");
-				opcaoP(sys);
+				opcaoP(sys, ac);
 				return; 
 		}
 			
@@ -125,7 +128,7 @@ public class Main {
 			}
 		catch(IllegalArgumentException e) {
 				System.out.println("O CNS deve possuir 15 digitos.");
-				opcaoP(sys);
+				opcaoE(sys);
 				return; 
 		}
 		
@@ -151,7 +154,7 @@ public class Main {
 			}
 		catch(IllegalArgumentException e) {
 				System.out.println("O CNS deve possuir 15 digitos.");
-				opcaoP(sys);
+				opcaoF(sys);
 				return; 
 		}
 		
@@ -161,6 +164,15 @@ public class Main {
 		sys.finalizarRequisicao(especialidade, cartao, data);	
 		
 		System.out.print("REQUISIÇÃO FINALIZADA! \n");
+	}
+	
+	public static void salvar(Sistema sys, ArquivoController ac) throws IOException {
+		ac.salvaObjeto("Sistema.txt", sys);
+	}
+
+	public static void carregar(Sistema sys, ArquivoController ac) throws IOException {
+		Sistema sistemaCarregado = (Sistema) ac.carregaObjeto("Sistema.txt");
+		sys = sistemaCarregado;
 	}
 
 }

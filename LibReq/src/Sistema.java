@@ -1,7 +1,10 @@
-public class Sistema {
-	
+import java.io.Serializable;
+
+public class Sistema implements Serializable{
+	private static final long serialVersionUID = 1L;
+
 	RequisicaoController rc = new RequisicaoController();
-	
+
 	public void cadastrarRequisicao(String cartao, String nome, String bairro, String especialidade, String data) {
 		rc.cadastrarRequisicao(cartao, nome, bairro, especialidade, data);
 	}

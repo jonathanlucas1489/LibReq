@@ -8,6 +8,233 @@
 	<description>Planet Eclipse - http://planeteclipse.org/planet/</description>
 
 <item>
+	<title>JBoss Tools Team: Integration Tooling for Eclipse Photon</title>
+	<guid isPermaLink="true">https://tools.jboss.org/blog/integration-stack-4.6.0.Final.html</guid>
+	<link>https://tools.jboss.org/blog/integration-stack-4.6.0.Final.html</link>
+	<description>&lt;div&gt;&lt;div id=&quot;preamble&quot;&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;&lt;strong&gt;Try our leaner, complete Eclipse Photon and Red Hat Developer Studio 12 compatible integration tooling.&lt;/strong&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;devstudio12&quot; src=&quot;https://tools.jboss.org/blog/images/devstudio12.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;&lt;strong&gt;JBoss Tools Integration Stack 4.6.0.Final / Red Hat Developer Studio Integration Stack 12.0.0.GA&lt;/strong&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;admonitionblock note&quot;&gt;
+      &lt;table&gt;
+      &lt;tbody&gt;&lt;tr&gt;
+      &lt;td class=&quot;icon&quot;&gt;
+      &lt;i class=&quot;fa icon-note&quot; title=&quot;Note&quot;&gt;&lt;/i&gt;
+      &lt;/td&gt;
+      &lt;td class=&quot;content&quot;&gt;
+      All of the Integration Stack components have been verified to work with the same dependencies as JBoss Tools 4.6 and Red Hat Developer Studio 12.
+      &lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;/tbody&gt;&lt;/table&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;what-s-new-for-this-release&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#what-s-new-for-this-release&quot;&gt;&lt;/a&gt;What’s new for this release?&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;This is the initial release in support of Eclipse Photon.  It syncs up with Developer Studio 12.0.0, JBoss Tools 4.6.0 and Eclipse 4.8.0 (Photon).  It is also a maintenance release for Teiid Designer and BRMS tooling.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;released-tooling-highlights&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#released-tooling-highlights&quot;&gt;&lt;/a&gt;Released Tooling Highlights&lt;/h3&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;business-process-and-rules-development&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#business-process-and-rules-development&quot;&gt;&lt;/a&gt;Business Process and Rules Development&lt;/h4&gt;
+      &lt;div class=&quot;sect4&quot;&gt;
+      &lt;h5 id=&quot;bpmn2-modeler-known-issues&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#bpmn2-modeler-known-issues&quot;&gt;&lt;/a&gt;BPMN2 Modeler Known Issues&lt;/h5&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;See the &lt;a href=&quot;https://access.redhat.com/documentation/en-us/red_hat_jboss_developer_studio_integration_stack/12.0/html/12.0.0_release_notes_and_known_issues/resolved_issues#bpmn2_1_5_0_final&quot;&gt;BPMN2 1.5.0.Final Known Issues Section&lt;/a&gt; of the Integration Stack 12.0.0.GA release notes.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect4&quot;&gt;
+      &lt;h5 id=&quot;drools-jbpm6-known-issues&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#drools-jbpm6-known-issues&quot;&gt;&lt;/a&gt;Drools/jBPM6 Known Issues&lt;/h5&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;See the &lt;a href=&quot;https://access.redhat.com/documentation/en-us/red_hat_jboss_developer_studio_integration_stack/12.0/html/12.0.0_release_notes_and_known_issues/resolved_issues#drools_7_8_0_final&quot;&gt;Drools 7.8.0.Final Known Issues Section&lt;/a&gt; of the Integration Stack 12.0.0.GA release notes.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;data-virtualization-highlights&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#data-virtualization-highlights&quot;&gt;&lt;/a&gt;Data Virtualization Highlights&lt;/h4&gt;
+      &lt;div class=&quot;sect4&quot;&gt;
+      &lt;h5 id=&quot;teiid-designer&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#teiid-designer&quot;&gt;&lt;/a&gt;Teiid Designer&lt;/h5&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;See the &lt;a href=&quot;https://access.redhat.com/documentation/en-us/red_hat_jboss_developer_studio_integration_stack/12.0/html/12.0.0_release_notes_and_known_issues/resolved_issues#teiid_designer_11_2_0_final&quot;&gt;Teiid Designer 11.2.0.Final Resolved Issues Section&lt;/a&gt; of the Integration Stack 12.0.0.GA release notes.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;what-s-an-integration-stack&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#what-s-an-integration-stack&quot;&gt;&lt;/a&gt;What’s an Integration Stack?&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Red Hat Developer Studio Integration Stack is a set of Eclipse-based development tools. It further enhances the IDE functionality provided by Developer Studio, with plug-ins specifically for use when developing for other Red Hat products.  It’s where DataVirt Tooling and BRMS tooling are aggregated.  The following frameworks are supported:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;red-hat-business-process-and-rules-development&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#red-hat-business-process-and-rules-development&quot;&gt;&lt;/a&gt;Red Hat Business Process and Rules Development&lt;/h3&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Business Process and Rules Development plug-ins provide design, debug and testing tooling for developing business processes for Red Hat BRMS and Red Hat BPM Suite.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;https://tools.jboss.org/features/bpel.html&quot;&gt;BPEL Designer&lt;/a&gt; - Orchestrating your business processes.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;https://tools.jboss.org/features/bpmn2.html&quot;&gt;BPMN2 Modeler&lt;/a&gt; - A graphical modeling tool which allows creation and editing of Business Process Modeling Notation diagrams using graphiti.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;https://tools.jboss.org/features/drools.html&quot;&gt;Drools&lt;/a&gt; - A Business Logic integration Platform which provides a unified and integrated platform for Rules, Workflow and Event Processing including KIE.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;https://tools.jboss.org/features/jbpm.html&quot;&gt;jBPM&lt;/a&gt; - A flexible Business Process Management (BPM) suite.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;red-hat-data-virtualization-development&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#red-hat-data-virtualization-development&quot;&gt;&lt;/a&gt;Red Hat Data Virtualization Development&lt;/h3&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Red Hat Data Virtualization Development plug-ins provide a graphical interface to manage various aspects of Red Hat Data Virtualization instances, including the ability to design virtual databases and interact with associated governance repositories.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;https://tools.jboss.org/features/teiiddesigner.html&quot;&gt;Teiid Designer&lt;/a&gt; - A visual tool that enables rapid, model-driven definition, integration, management and testing of data services without programming using the Teiid runtime framework.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;the-jboss-tools-website-features-tab&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#the-jboss-tools-website-features-tab&quot;&gt;&lt;/a&gt;The JBoss Tools website features tab&lt;/h3&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Don’t miss the &lt;a href=&quot;https://tools.jboss.org/features&quot;&gt;Features tab&lt;/a&gt; for up to date information on your favorite Integration Stack components.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;installation&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#installation&quot;&gt;&lt;/a&gt;Installation&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The easiest way to install the Integration Stack components is through the &lt;a href=&quot;https://access.redhat.com/jbossnetwork/restricted/listSoftware.html?downloadType=distributions&amp;amp;product=jbossdeveloperstudio&amp;amp;version=12.0.0&quot;&gt;stand-alone installer&lt;/a&gt; or through our &lt;a href=&quot;http://tools.jboss.org/downloads/overview.html&quot;&gt;JBoss Tools Download Site&lt;/a&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;For a complete set of Integration Stack installation instructions, see &lt;a href=&quot;https://access.redhat.com/documentation/en-us/red_hat_jboss_developer_studio_integration_stack/12.0/html/installation_guide/&quot;&gt;Integration Stack Installation Guide&lt;/a&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;&lt;em&gt;Let us know how it goes!&lt;/em&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Paul Leacu.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Tue, 14 Aug 2018 14:55:52 +0000</pubDate>
+</item>
+<item>
+	<title>Eclipse Ditto: Announcing Ditto Milestone 0.8.0-M1</title>
+	<guid isPermaLink="true">https://www.eclipse.org/ditto/2018-08-14-milestone-announcement-080-M1.html</guid>
+	<link>https://www.eclipse.org/ditto/2018-08-14-milestone-announcement-080-M1.html</link>
+	<description>&lt;p&gt;Even during the summer break the Ditto team worked hard in order to provide the next milestone release. Here it is: 
+Milestone 0.8.0-M1.&lt;/p&gt;
+
+&lt;p&gt;Have a look at the Milestone &lt;a href=&quot;https://www.eclipse.org/ditto/release_notes_080-M1.html&quot;&gt;0.8.0-M1 release notes&lt;/a&gt; for what changed in detail and why
+there was a version bump from 0.3.0-M2 to 0.8.0-M1.&lt;/p&gt;
+
+&lt;p&gt;The main changes and new features are&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;security enhancement by making some of Ditto’s headers not settable from the outside&lt;/li&gt;
+  &lt;li&gt;report application metrics to Prometheus&lt;/li&gt;
+  &lt;li&gt;automatically form a cluster when running in Kubernetes&lt;/li&gt;
+  &lt;li&gt;improvement of Ditto’s &lt;code class=&quot;highlighter-rouge&quot;&gt;things-service&lt;/code&gt; memory consumption&lt;/li&gt;
+  &lt;li&gt;stabilization of the connectivity to AMQP 1.0 and 0.9.1&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;artifacts&quot;&gt;Artifacts&lt;/h2&gt;
+
+&lt;p&gt;The new Java artifacts have been published at the &lt;a href=&quot;https://repo.eclipse.org/content/repositories/ditto/&quot;&gt;Eclipse Maven repository&lt;/a&gt;
+as well as &lt;a href=&quot;https://repo1.maven.org/maven2/org/eclipse/ditto/&quot;&gt;Maven central&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The Docker images have been pushed to Docker Hub:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hub.docker.com/r/eclipse/ditto-policies/&quot;&gt;eclipse/ditto-policies&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hub.docker.com/r/eclipse/ditto-things/&quot;&gt;eclipse/ditto-things&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hub.docker.com/r/eclipse/ditto-things-search/&quot;&gt;eclipse/ditto-things-search&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hub.docker.com/r/eclipse/ditto-gateway/&quot;&gt;eclipse/ditto-gateway&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hub.docker.com/r/eclipse/ditto-connectivity/&quot;&gt;eclipse/ditto-connectivity&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hub.docker.com/r/eclipse/ditto-concierge/&quot;&gt;eclipse/ditto-concierge&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;img alt=&quot;Ditto&quot; class=&quot;docimage&quot; src=&quot;https://www.eclipse.org/ditto/images/ditto.svg&quot; /&gt;&lt;/figure&gt;
+
+&lt;p&gt;–&lt;br /&gt;
+The Eclipse Ditto team&lt;/p&gt;</description>
+	<pubDate>Tue, 14 Aug 2018 04:00:00 +0000</pubDate>
+</item>
+<item>
+	<title>Maximilian and Jonas: EMF Forms 1.17.0 Feature: Table Detail Panes</title>
+	<guid isPermaLink="false">https://eclipsesource.com/?p=39783</guid>
+	<link>https://eclipsesource.com/blogs/2018/08/10/emf-forms-1-17-0-feature-table-detail-panes/</link>
+	<description>&lt;p&gt;&lt;a href=&quot;https://www.eclipse.org/ecp/emfforms/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;EMF Forms&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; makes it easy to create forms that are capable of editing your data based on an EMF model. To get started with EMF Forms please refer to &lt;/span&gt;&lt;a href=&quot;http://eclipsesource.com/blogs/tutorials/getting-started-with-EMF-Forms/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;our tutorial&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;. If you are an adopter of EMF Forms, please note, that &lt;/span&gt;&lt;b&gt;we have recently published 1.17.1 an update to 1.17.0. &lt;/b&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The update fixes three bugs which occurred if you use EMF Forms in Photon. Please see &lt;/span&gt;&lt;a href=&quot;https://projects.eclipse.org/projects/modeling.ecp/releases/1.17.1&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;here&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; for details and &lt;/span&gt;&lt;a href=&quot;http://www.eclipse.org/ecp/emfforms/download.html&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;our download page&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; to get the new release.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;In this post, we would like to outline a new feature in the 1.17.0 release: &lt;/span&gt;&lt;b&gt;The improved table detail panes&lt;/b&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;While EMF Forms is well known to support form-based UIs with classic input fields, such as text controls or checkboxes, it also supports showing list of elements in tables and list views, as well as hierarchies in trees.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;As an example, you can very easily create a tree like this:&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;EMF Forms 1.17.0 Feature: Table Detail Panes&quot; class=&quot;alignnone wp-image-39784 size-full&quot; height=&quot;228&quot; src=&quot;https://eclipsesource.com/wp-content/uploads/2018/07/image38.png&quot; width=&quot;1298&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Or a table like this:&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;EMF Forms 1.17.0 Feature: Table Detail Panes&quot; class=&quot;alignnone wp-image-39785 size-full&quot; height=&quot;137&quot; src=&quot;https://eclipsesource.com/wp-content/uploads/2018/07/image36.png&quot; width=&quot;1301&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;With 1.17.0, we have updated the documentation, please see &lt;/span&gt;&lt;a href=&quot;https://eclipsesource.com/blogs/tutorials/emf-forms-view-model-elements/#tablecontrol&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;this tutorial for tables&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; and &lt;/span&gt;&lt;a href=&quot;https://eclipsesource.com/blogs/tutorials/emf-forms-view-model-elements/#treemasterdetail&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;this tutorial for tree view&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Any element showing several elements can allow inline editing (like the EMF Forms table does), or show a detail pane (like the tree does), or both. As an example, if elements shown in a table have many attributes, you could show some of them in the table and then all of them in a detail pane. To do so, just enable the detail pane on the TableControl in the view model:&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;EMF Forms 1.17.0 Feature: Table Detail Panes&quot; class=&quot;alignnone wp-image-39786 size-full&quot; height=&quot;42&quot; src=&quot;https://eclipsesource.com/wp-content/uploads/2018/07/image50.png&quot; width=&quot;547&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The result, after removing most columns from the table would then look like this:&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;EMF Forms 1.17.0 Feature: Table Detail Panes&quot; class=&quot;alignnone wp-image-39787 size-full&quot; height=&quot;457&quot; src=&quot;https://eclipsesource.com/wp-content/uploads/2018/07/image48.png&quot; width=&quot;844&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Alternatively, you can set the DetailEditing property to “WithDialog”. As a result the renderer opens a separate window showing the details on double clicking an element. With 1.17.0, both options are supported by all table renderers, including the &lt;/span&gt;&lt;a href=&quot;https://eclipsesource.com/blogs/2017/01/02/emf-forms-1-11-0-feature-grid-table-and-more/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;table renderer based on Nebula Grid&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;You might wonder, where the layout of the detailed pane comes from. This detail itself is rendered with EMF Forms. Therefore, the framework retrieves the view model for the selected element, such that, if you already have a view model for the type “User”, it will be used in the detail pane as well. For this to work, you need to register the view model with EMF Forms by default, via an extension point.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Another minor improvement, which comes with 1.17.0 is that you can also try out those detail panes with a separate view model in the preview provided by the EMF Forms tooling. Therefore, you can add those additional view models to the preview using the “Manage Additional Views” button in the toolbar of the preview.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;EMF Forms 1.17.0 Feature: Table Detail Panes&quot; class=&quot;alignnone wp-image-39788 size-full&quot; height=&quot;300&quot; src=&quot;https://eclipsesource.com/wp-content/uploads/2018/07/image9.png&quot; width=&quot;580&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Any view model added here will be picked up by the preview when a detail pane is to be rendered.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;As for all EMF Forms features, the detail panes of the respective tooling is of course adaptable to even more custom requirements. If there are any features you miss or ways you wish to adapt it, please provide feedback by &lt;/span&gt;&lt;a href=&quot;https://bugs.eclipse.org/bugs/enter_bug.cgi?product=ecp&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;submitting bugs or feature requests&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; or &lt;/span&gt;&lt;a href=&quot;mailto:munich@eclipsesource.com&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;contact us&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; if you are interested in enhancements or support.&lt;/span&gt;&lt;/p&gt;</description>
+	<pubDate>Fri, 10 Aug 2018 10:06:17 +0000</pubDate>
+</item>
+<item>
+	<title>Andrey Loskutov: We are hiring 2 Eclipse developers</title>
+	<guid isPermaLink="false">tag:blogger.com,1999:blog-342159971341432126.post-4266215239435919015</guid>
+	<link>http://javaclipse.blogspot.com/2018/08/we-are-hiring-2-eclipse-developers.html</link>
+	<description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;&lt;a href=&quot;https://www.advantest.com/en/about-advantest/about-advantest-europe&quot;&gt;We&lt;/a&gt; are hiring again!&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;https://www.advantest.com/en/about-advantest/about-advantest-europe&quot;&gt;We&lt;/a&gt; have 2 opened positions for Eclipse developers in &lt;a href=&quot;https://goo.gl/maps/FgrdmJnCh8T2&quot;&gt;our main office&lt;/a&gt; in Böblingen, Germany (no, it is not a remote job).&lt;br /&gt;&lt;br /&gt;The job focus is Java/Eclipse development in the context of the very complex Eclipse based IDE used as the front end for the semiconductor tester.&lt;br /&gt;&lt;br /&gt;We speak English and Java here, if you are interested, just drop me a mail.&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;</description>
+	<pubDate>Thu, 09 Aug 2018 12:47:58 +0000</pubDate>
+	<author>noreply@blogger.com (Andrey Loskutov)</author>
+</item>
+<item>
+	<title>Maximilian and Jonas: Modeling Symposium @ EclipseCon Europe 2018</title>
+	<guid isPermaLink="false">https://eclipsesource.com/?p=39797</guid>
+	<link>https://eclipsesource.com/blogs/2018/08/08/modeling-symposium-eclipsecon-europe-2018/</link>
+	<description>&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;We are happy to announce that Ed, Philip and Jonas are organizing the Modeling Symposium for the &lt;a href=&quot;https://www.eclipsecon.org/europe2018&quot;&gt;EclipseCon Europe 2018 in Ludwigsburg&lt;/a&gt;. The symposium aims to provide a forum for community members to present a brief overview of their work. We offer 10 minute lightning slots (including set-up and questions) to facilitate a broad range of speakers. The primary goal is to introduce interesting, new technological features. This targets mainly modeling projects which are otherwise not represented at the conference.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;If you are interested in giving a talk, please send a short description (a few sentences) to munich@eclipsesource.com. Depending on the number, we might have to select among the submissions. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Deadline for submission: Wednesday, September 5th, 2018&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Acceptance/ Decline notification: Monday, September 10th, 2018&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Please adhere to the following guidelines:&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Please provide sufficient context. Talks should start with a concise overview of what the presenter plans to demonstrate, or what a certain framework offers.  Even more important, explain how and why this is relevant.&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Do not bore us! Get to the point quickly.  You do not have to use all your allocation. An interesting 3 minute talk will have a bigger impact than a boring 10 minute talk. We encourage you to plan for a 5 minute talk, leaving room for 5 minutes of discussion.&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Keep it short and sweet, focus on the most important aspects. A conference offers the major advantage of getting in contact with people who are interested in your work. So consider the talk more as a teaser to prompt follow-up conversations than a forum to demonstrate or discuss technical details in depth.&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;A demo is worth a thousand slides. We prefer to see how your stuff works rather than be told about how it works with illustrative slides.  Please restrict the slides to summarize your introduction or conclusion.&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Looking forward to your submissions!&lt;/span&gt;&lt;/p&gt;</description>
+	<pubDate>Wed, 08 Aug 2018 11:45:27 +0000</pubDate>
+</item>
+<item>
 	<title>Tom Schindl: Supporting OpenJFX 11 from JDK11 onwards in e(fx)clipse</title>
 	<guid isPermaLink="false">http://tomsondev.bestsolution.at/?p=5116</guid>
 	<link>https://tomsondev.bestsolution.at/2018/08/04/supporting-openjfx-11-from-jdk11-onwards-in-efxclipse/</link>
@@ -98,13 +325,6 @@
 	<pubDate>Tue, 31 Jul 2018 14:10:00 +0000</pubDate>
 </item>
 <item>
-	<title>InfoQ Eclipse feed: Eclipse Foundation Releases Eclipse Photon IDE</title>
-	<guid isPermaLink="true">http://www.infoq.com/news/2018/07/eclipse-photon?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=Eclipse</guid>
-	<link>http://www.infoq.com/news/2018/07/eclipse-photon?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=Eclipse</link>
-	<description>&lt;img src=&quot;http://www.infoq.com/styles/i/logo_bigger.jpg&quot; /&gt;&lt;p&gt;The Eclipse Foundation has released the latest version of the Eclipse IDE. Eclipse Photon brings support for both Java 10 and Java EE 8, improvements for PHP development tools, Dark theme improvements, and more.&lt;/p&gt; &lt;i&gt;By Diogo Carleto&lt;/i&gt;</description>
-	<pubDate>Fri, 27 Jul 2018 17:00:00 +0000</pubDate>
-</item>
-<item>
 	<title>Eclipse Announcements: Eclipse Newsletter | Embedded Development</title>
 	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/QOriVT-EhRU/</guid>
 	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/QOriVT-EhRU/</link>
@@ -179,10 +399,10 @@
 	<pubDate>Fri, 20 Jul 2018 17:00:00 +0000</pubDate>
 </item>
 <item>
-	<title>EclipseCon Europe 2018: Early Selection: Visualization of OSGi-based Software Architectures in Virtual Reality</title>
+	<title>EclipseCon Europe 2018: Early Selection: Visualization of OSGi Based Software Architectures in Virtual Reality</title>
 	<guid isPermaLink="false">https://www.eclipsecon.org/news/631 at https://www.eclipsecon.org</guid>
 	<link>https://www.eclipsecon.org/europe2018/news/early-selection-visualization-osgi-based-software-architectures-virtual-reality</link>
-	<description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Read more about the early pick, &lt;a href=&quot;https://www.eclipsecon.org/europe2018/sessions/visualization-osgi-based-software-architectures-virtual-reality&quot;&gt;Visualization of OSGi-based Software Architectures in Virtual Reality&lt;/a&gt;, by Lisa Nafeie in an &lt;a href=&quot;https://www.osgi.org/2018-osgi-community-event/early-bird-pick/&quot;&gt;interview&lt;/a&gt; with Lisa by the OSGi Community Alliance.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-news-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2018/news/early-selection-visualization-osgi-based-software-architectures-virtual-reality&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;img-responsive block-center&quot; height=&quot;250&quot; src=&quot;https://www.eclipsecon.org/sites/default/files/styles/solstice_news_-_default_-_thumbnail/public/news/OSGi%20VR.png?itok=loxVRKiu&quot; width=&quot;250&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+	<description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Read more about the early pick, &lt;a href=&quot;https://www.eclipsecon.org/europe2018/sessions/visualization-osgi-based-software-architectures-virtual-reality&quot;&gt;Visualization of OSGi Based Software Architectures in Virtual Reality&lt;/a&gt;, by Lisa Nafeie in an &lt;a href=&quot;https://www.osgi.org/2018-osgi-community-event/early-bird-pick/&quot;&gt;interview&lt;/a&gt; with Lisa by the OSGi Community Alliance.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-news-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2018/news/early-selection-visualization-osgi-based-software-architectures-virtual-reality&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;img-responsive block-center&quot; height=&quot;250&quot; src=&quot;https://www.eclipsecon.org/sites/default/files/styles/solstice_news_-_default_-_thumbnail/public/news/OSGi%20VR.png?itok=loxVRKiu&quot; width=&quot;250&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
 	<pubDate>Wed, 18 Jul 2018 13:30:21 +0000</pubDate>
 </item>
 <item>
@@ -295,883 +515,6 @@
       &lt;/div&gt;
       &lt;/div&gt;&lt;/div&gt;</description>
 	<pubDate>Wed, 18 Jul 2018 12:06:03 +0000</pubDate>
-</item>
-<item>
-	<title>JBoss Tools Team: JBoss Tools and Red Hat Developer Studio for Eclipse Photon</title>
-	<guid isPermaLink="true">https://tools.jboss.org/blog/12.0.0.ga-for-photon.html</guid>
-	<link>https://tools.jboss.org/blog/12.0.0.ga-for-photon.html</link>
-	<description>&lt;div&gt;&lt;div id=&quot;preamble&quot;&gt;
-      &lt;div class=&quot;sectionbody&quot;&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;&lt;a href=&quot;https://tools.jboss.org/downloads/jbosstools/photon/4.6.0.Final.html&quot;&gt;JBoss Tools 4.6.0&lt;/a&gt; and &lt;a href=&quot;https://tools.jboss.org/downloads/devstudio/photon/12.0.0.GA.html&quot;&gt;Red Hat Developer Studio 12.0&lt;/a&gt; for Eclipse Photon are here waiting for you. Check it out!&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;devstudio12&quot; src=&quot;https://tools.jboss.org/blog/images/devstudio12.png&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect1&quot;&gt;
-      &lt;h2 id=&quot;installation&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#installation&quot;&gt;&lt;/a&gt;Installation&lt;/h2&gt;
-      &lt;div class=&quot;sectionbody&quot;&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Red Hat Developer Studio comes with everything pre-bundled in its installer. Simply download it from our &lt;a href=&quot;https://developers.redhat.com/products/devstudio/overview/&quot;&gt;Red Hat Developer product page&lt;/a&gt; and run it like this:&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;literalblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;pre&gt;java -jar devstudio-&amp;lt;installername&amp;gt;.jar&lt;/pre&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;JBoss Tools or Bring-Your-Own-Eclipse (BYOE) Developer Studio require a bit more:&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;This release requires at least Eclipse 4.8 (Photon) but we recommend
-      using the latest &lt;a href=&quot;http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/photonr&quot;&gt;Eclipse 4.8 Photon JEE Bundle&lt;/a&gt; since then you get most of the dependencies preinstalled.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Once you have installed Eclipse, you can either find us on the Eclipse Marketplace under &quot;JBoss Tools&quot; or &quot;Red Hat Developer Studio&quot;.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;For JBoss Tools, you can also use our update site directly.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;literalblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;pre&gt;http://download.jboss.org/jbosstools/photon/stable/updates/&lt;/pre&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect1&quot;&gt;
-      &lt;h2 id=&quot;what-is-new&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#what-is-new&quot;&gt;&lt;/a&gt;What is new?&lt;/h2&gt;
-      &lt;div class=&quot;sectionbody&quot;&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Our main focus for this release was on adoption of Java10, improvements for container based development and bug fixing.
-      Eclipse Photon itself has &lt;a href=&quot;https://www.youtube.com/watch?v=gDAb_iyO5Fc&amp;amp;list=PLy7t4z5SYNaQjVGIS9YUfZzFQpNFYpCny&quot;&gt;a lot of new cool stuff&lt;/a&gt; but let me highlight just a few updates in both Eclipse Photon and JBoss Tools plugins that I think are worth mentioning.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect2&quot;&gt;
-      &lt;h3 id=&quot;openshift-3&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#openshift-3&quot;&gt;&lt;/a&gt;OpenShift 3&lt;/h3&gt;
-      &lt;div class=&quot;sect3&quot;&gt;
-      &lt;h4 id=&quot;enhanced-spring-boot-support-for-server-adapter&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#enhanced-spring-boot-support-for-server-adapter&quot;&gt;&lt;/a&gt;Enhanced Spring Boot support for server adapter&lt;/h4&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Spring Boot runtime was already supported by the OpenShift server adapter. However, it has one major limitation: files and
-      resources were synchronized between the local workstation and the remote pod(s) only for the main project. If your Spring Boot
-      application had dependencies that were present in the local workspace, any change to a file or resource of one of these dependencies
-      was not handled. This is not true anymore.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect2&quot;&gt;
-      &lt;h3 id=&quot;server-tools&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#server-tools&quot;&gt;&lt;/a&gt;Server tools&lt;/h3&gt;
-      &lt;div class=&quot;sect3&quot;&gt;
-      &lt;h4 id=&quot;wildfly-13-server-adapter&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#wildfly-13-server-adapter&quot;&gt;&lt;/a&gt;Wildfly 13 Server Adapter&lt;/h4&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;A server adapter has been added to work with Wildfly 13. It adds support for Servlet 4.0.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect2&quot;&gt;
-      &lt;h3 id=&quot;fuse-tooling&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#fuse-tooling&quot;&gt;&lt;/a&gt;Fuse Tooling&lt;/h3&gt;
-      &lt;div class=&quot;sect3&quot;&gt;
-      &lt;h4 id=&quot;camel-rest-dsl-from-wsdl-wizard&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#camel-rest-dsl-from-wsdl-wizard&quot;&gt;&lt;/a&gt;Camel Rest DSL from WSDL wizard&lt;/h4&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;There is a new &lt;em&gt;&quot;Camel Rest DSL from WSDL&quot;&lt;/em&gt; wizard. This wizard wraps the &lt;a href=&quot;https://github.com/jboss-fuse/wsdl2rest&quot;&gt;wsdl2rest tool&lt;/a&gt; now included with the Fuse 7 distribution, which
-      takes a WSDL file for a SOAP-based (JAX-WS) web service and generates a combination of CXF-generated code and a Camel REST DSL route to make it accessible using REST operations.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;To start, you need an existing Fuse Integration project in your workspace and access to the WSDL for the SOAP service. Then use
-      &lt;em&gt;File→New→Other…​&lt;/em&gt; and select &lt;em&gt;Red Hat Fuse→Camel Rest DSL from WSDL&lt;/em&gt; wizard.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;On the first page of the wizard, select your WSDL and the Fuse Integration project in which to generate the Java code and Camel configuration.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;SOAP to REST Wizard page 1&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/fusetools/images/wsdl2rest-wizard-page-one.jpg&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;On the second page, you can customize the Java folder path for your generated classes, the folder for the generated Camel file, plus any customization for the SOAP service
-      address and destination REST service address.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;SOAP to REST Wizard page 2&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/fusetools/images/wsdl2rest-wizard-page-two.jpg&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Click &lt;em&gt;Finish&lt;/em&gt; and the new Camel configuration and associated Java code are generated in your project. The wizard determines whether your project is Blueprint,
-      Spring, or Spring Boot based, and it creates the corresponding artifacts without requiring any additional input. When the wizard is finished, you can open your
-      new Camel file in the Fuse Tooling Route Editor to view what it created.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;Fuse Tooling editor Rest Tab&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/fusetools/images/fuse-editor-rest-tab-no-properties.jpg&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;That brings us to another new functionality, the REST tab in the Fuse Tooling Route Editor.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect3&quot;&gt;
-      &lt;h4 id=&quot;camel-editor-rest-tab&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#camel-editor-rest-tab&quot;&gt;&lt;/a&gt;Camel Editor REST tab&lt;/h4&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;The Fuse Tooling Route Editor provides a new &lt;em&gt;REST&lt;/em&gt; tab. For this release, the contents of this tab is read-only and includes the following information:&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;ulist&quot;&gt;
-      &lt;ul&gt;
-      &lt;li&gt;
-      &lt;p&gt;Details for the REST Configuration element including the component (jetty, netty, servlet, etc.), the context path, the port, binding mode (JSON, XML, etc.), and host. There is only one REST Configuration element.&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-      &lt;p&gt;A list of REST elements that collect REST operations. A configuration can have more than one REST element. Each REST element has an associated property page that displays additional details such as the path and the data it consumes or produces.&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;/ul&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;Fuse Tooling Rest Elements Properties View&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/fusetools/images/fuse-editor-rest-tab-rest-element-properties.jpg&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;ulist&quot;&gt;
-      &lt;ul&gt;
-      &lt;li&gt;
-      &lt;p&gt;A list of REST operations for the selected REST element. Each of the operations has an associated property page that provides details such as the URI and output type.&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;/ul&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;Fuse Tooling Rest Operations Properties View&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/fusetools/images/fuse-editor-rest-tab-rest-operation-properties.jpg&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;For this release, the REST tab is read-only. If you want to edit the REST DSL, use the Route Editor Source tab. When you make changes and save them in the Source tab, the
-      REST tab refreshes to show your updates.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect3&quot;&gt;
-      &lt;h4 id=&quot;camel-uri-completion-with-xml-dsl&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#camel-uri-completion-with-xml-dsl&quot;&gt;&lt;/a&gt;Camel URI completion with XML DSL&lt;/h4&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;As announced &lt;a href=&quot;https://developers.redhat.com/blog/2018/01/31/apache-camel-uri-completion-eclipse-xml-editor/&quot;&gt;here&lt;/a&gt;, it was already possible to have Camel URI completion with XML DSL in the source tab of the Camel Route editor by installing the &lt;a href=&quot;https://github.com/camel-tooling/camel-lsp-client-eclipse&quot;&gt;Language Support for Apache Camel&lt;/a&gt; in your IDE.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;This feature is now installed by default with Fuse Tooling!&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;Camel URI completion in source tab of Camel Editor&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/fusetools/images/completionSourceEditor.gif&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect2&quot;&gt;
-      &lt;h3 id=&quot;maven&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#maven&quot;&gt;&lt;/a&gt;Maven&lt;/h3&gt;
-      &lt;div class=&quot;sect3&quot;&gt;
-      &lt;h4 id=&quot;maven-support-updated-to-m2e-1-9-1&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#maven-support-updated-to-m2e-1-9-1&quot;&gt;&lt;/a&gt;Maven support updated to M2E 1.9.1&lt;/h4&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;The Maven support is based on Eclipse M2E 1.9.1, bringing the following features:&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect4&quot;&gt;
-      &lt;h5 id=&quot;advanced-classpath-isolation&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#advanced-classpath-isolation&quot;&gt;&lt;/a&gt;Advanced classpath isolation&lt;/h5&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Thanks to Eclipse Photon, there are new two different classpathes, the main and the test classpath.
-      The main classes will now no longer see the test classes and dependencies&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect4&quot;&gt;
-      &lt;h5 id=&quot;embedded-maven-runtime&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#embedded-maven-runtime&quot;&gt;&lt;/a&gt;Embedded Maven runtime&lt;/h5&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;The embedded Maven runtime is now based on Apache Maven 3.5.3.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect4&quot;&gt;
-      &lt;h5 id=&quot;archetype-catalog-management&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#archetype-catalog-management&quot;&gt;&lt;/a&gt;Archetype catalog management&lt;/h5&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;It is now possible to disable an archetype catalog.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect4&quot;&gt;
-      &lt;h5 id=&quot;java-9-10-support&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#java-9-10-support&quot;&gt;&lt;/a&gt;Java 9/10 support&lt;/h5&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Support for Java 9/10 has been improved: bugs fixes, better handling of module path.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect2&quot;&gt;
-      &lt;h3 id=&quot;java-developement-tools-jdt&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#java-developement-tools-jdt&quot;&gt;&lt;/a&gt;Java Developement Tools (JDT)&lt;/h3&gt;
-      &lt;div class=&quot;sect3&quot;&gt;
-      &lt;h4 id=&quot;support-for-java-10&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#support-for-java-10&quot;&gt;&lt;/a&gt;Support for Java™ 10&lt;/h4&gt;
-      &lt;div class=&quot;sect4&quot;&gt;
-      &lt;h5 id=&quot;quick-fix-to-change-project-compliance-and-jre-to-10&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#quick-fix-to-change-project-compliance-and-jre-to-10&quot;&gt;&lt;/a&gt;Quick fix to change project compliance and JRE to 10&lt;/h5&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;A quick fix &lt;strong&gt;Change project compliance and JRE to 10&lt;/strong&gt; is provided to quickly change the current project to be compatible with Java 10.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;quickfix change compliance 10&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.8/images/quickfix-change-compliance-10.png&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect3&quot;&gt;
-      &lt;h4 id=&quot;java-editor&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#java-editor&quot;&gt;&lt;/a&gt;Java Editor&lt;/h4&gt;
-      &lt;div class=&quot;sect4&quot;&gt;
-      &lt;h5 id=&quot;quick-fix-to-add-nonnullbydefault-to-packages&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#quick-fix-to-add-nonnullbydefault-to-packages&quot;&gt;&lt;/a&gt;Quick Fix to add @NonNullByDefault to packages&lt;/h5&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;A new quick fix is offered to fix issues that are reported when the Missing &amp;amp;apos@NonNullByDefault&amp;amp;apos annotation on package warning is enabled.
-      If the package already has a &lt;code&gt;&lt;code&gt;package-info.java&lt;/code&gt;&lt;/code&gt;, the quick fix can be invoked from the editor:&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;add nnbd existing packageinfo&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.8/images/add-nnbd-existing-packageinfo.png&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Otherwise, the quick fix must be invoked from the problems view, and will create a &lt;code&gt;&lt;code&gt;package-info.java&lt;/code&gt;&lt;/code&gt; with the required annotation:&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;add nnbd create packageinfo&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.8/images/add-nnbd-create-packageinfo.png&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;When invoked from the problems view, both variations of the quick fix can fix the problem for multiple packages simultaneously.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect4&quot;&gt;
-      &lt;h5 id=&quot;navigate-to-switch-statement&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#navigate-to-switch-statement&quot;&gt;&lt;/a&gt;Navigate to &amp;amp;aposswitch&amp;amp;apos statement&lt;/h5&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;You can now &lt;strong&gt;Ctrl+click&lt;/strong&gt; or use &lt;strong&gt;Open Declaration (F3)&lt;/strong&gt; on case or default keywords to quickly navigate to the beginning of the switch statement.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;navigate to switch&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.8/images/navigate-to-switch.png&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect4&quot;&gt;
-      &lt;h5 id=&quot;escape-non-ascii-characters-when-pasting-into-a-string-literal&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#escape-non-ascii-characters-when-pasting-into-a-string-literal&quot;&gt;&lt;/a&gt;Escape non-ASCII characters when pasting into a string literal&lt;/h5&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;The &lt;strong&gt;Java &amp;gt; Editor &amp;gt; Typing &amp;gt; Escape text when pasting into a string literal&lt;/strong&gt; preference option now has a suboption &lt;strong&gt;Use Unicode escape syntax for non-ASCII characters&lt;/strong&gt;:&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;escape non ascii settings&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.8/images/escape-non-ascii-settings.png&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;When enabled, characters outside the visible ASCII range will be replaced by unicode escape sequences when pasted into a string:&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;escape non ascii example&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.8/images/escape-non-ascii-example.png&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect4&quot;&gt;
-      &lt;h5 id=&quot;improved-java-syntax-coloring-in-the-dark-theme&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#improved-java-syntax-coloring-in-the-dark-theme&quot;&gt;&lt;/a&gt;Improved Java syntax coloring in the dark theme&lt;/h5&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;To improve readability in the dark theme, bold style usage has been reduced and some colors that were too close to each other have been altered.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;java syntax dark&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.8/images/java-syntax-dark.png&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect4&quot;&gt;
-      &lt;h5 id=&quot;improved-coloring-of-links-in-code-element-information-in-the-dark-theme&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#improved-coloring-of-links-in-code-element-information-in-the-dark-theme&quot;&gt;&lt;/a&gt;Improved coloring of links in code element information in the dark theme&lt;/h5&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;The colors of links in code element information control now takes the color settings of the &lt;strong&gt;Hyperlink text color&lt;/strong&gt; and the &lt;strong&gt;Active hyperlink text color&lt;/strong&gt; from the &lt;strong&gt;Colors &amp;amp; Fonts&lt;/strong&gt; preference page into account. The readability in the dark theme has been improved a lot by this.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Before:&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;element info before&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.8/images/element_info_before.png&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;After:&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;element info after&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.8/images/element_info_after.png&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect4&quot;&gt;
-      &lt;h5 id=&quot;improved-coloring-of-inherited-members-in-the-quick-outline-in-the-dark-theme&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#improved-coloring-of-inherited-members-in-the-quick-outline-in-the-dark-theme&quot;&gt;&lt;/a&gt;Improved coloring of inherited members in the Quick Outline in the dark theme&lt;/h5&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;The Eclipse default dark theme now includes styling of inherited members in JDT’s &lt;strong&gt;Quick Outline&lt;/strong&gt;. This improves readability in the dark theme a lot. The color can be configured via the &lt;strong&gt;Java &amp;gt; Inherited Members&lt;/strong&gt; color definition on the &lt;strong&gt;Colors and Fonts&lt;/strong&gt; preference page.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Before:&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;inherited before&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.8/images/inherited_before.png&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;After:&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;inherited after&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.8/images/inherited_after.png&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect3&quot;&gt;
-      &lt;h4 id=&quot;java-views-and-dialogs&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#java-views-and-dialogs&quot;&gt;&lt;/a&gt;Java Views and Dialogs&lt;/h4&gt;
-      &lt;div class=&quot;sect4&quot;&gt;
-      &lt;h5 id=&quot;test-sources&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#test-sources&quot;&gt;&lt;/a&gt;Test sources&lt;/h5&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;In the &lt;strong&gt;Java Build Path&lt;/strong&gt; project settings, there is now an attribute &lt;strong&gt;Contains test sources&lt;/strong&gt; to configure that a source folder contains test sources.
-      (Note: test sources must have their own output folder).
-      Similarly, for projects and libraries there is an attribute &lt;strong&gt;Visible only for test sources&lt;/strong&gt;.
-      This setting also exists for classpath containers, and if it is set to &lt;strong&gt;Yes&lt;/strong&gt; for one of these, this value will be used for all contained libraries and projects.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;1 sourcefolder settings 521330&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.8/images/1-sourcefolder-settings-521330.png&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Test source folders and dependencies are shown with a darker icon in the build path settings, the package explorer and other locations.
-      This can be disabled in &lt;strong&gt;Preferences &amp;gt; Java &amp;gt; Appearance&lt;/strong&gt;:&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;1a modified test icon preferences 530179&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.8/images/1a-modified-test-icon-preferences-530179.png&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Referenced projects can contain test sources and have test dependencies themselves.
-      Usually, when test sources are compiled, the test code in projects on the build path will be visible.
-      As this is not always desirable, it can be changed by setting the new build path attribute &lt;strong&gt;Without test code&lt;/strong&gt;, that is available for projects, to &lt;strong&gt;Yes&lt;/strong&gt;.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;2 without test code 526858&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.8/images/2-without-test-code-526858.png&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Build path entries configured like this have a decoration [without test code] after the project name, which can be disabled in &lt;strong&gt;Preferences &amp;gt; General &amp;gt; Appearance &amp;gt; Label Decorations&lt;/strong&gt;:&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;2a without test code decorator 530179&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.8/images/2a-without-test-code-decorator-530179.png&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;For each project, compilation is now done in two phases: First all main sources (which cannot see any test-code on the build-path) and then all test sources.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;3 visibilities 224708&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.8/images/3-visibilities-224708.png&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;As a consequence, if the project is a modular Java 9 project, test dependencies like JUnit can not be referenced in the &lt;code&gt;&lt;code&gt;module-info.java&lt;/code&gt;&lt;/code&gt;, as they will not be visible while compiling it.
-      The solution used to handle this is the same, that Maven uses: When test dependencies are put on the classpath, the module being compiled will automatically be configured to read the unnamed module during the compilation of the test sources, so the test dependencies will be visible.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Of course, code completion will not suggest test code in main sources:&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;4a completion in main 521331&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.8/images/4a-completion-in-main-521331.png&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;There are now two dynamic Java working sets &lt;strong&gt;Java Main Sources&lt;/strong&gt; and &lt;strong&gt;Java Test Sources&lt;/strong&gt; containing the source folders grouped according to value of the &lt;strong&gt;Contains test sources&lt;/strong&gt; attribute.
-      This can for example be used to remove warnings in test sources from the problems view:&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;5a problems view 521336&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.8/images/5a-problems-view-521336.png&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;To achieve this, create a new filter that shows warnings for the &lt;strong&gt;Java Main Sources&lt;/strong&gt; working set and select it with the &lt;strong&gt;All Errors on Workspace&lt;/strong&gt; filter:&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;5b problems view filters 521336&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.8/images/5b-problems-view-filters-521336.png&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;There are also dedicated filters to quickly remove hits in main code or test code from Java search results:&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;6 filter search result 521332&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.8/images/6-filter-search-result-521332.png&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Similar, there is a filter to remove test code from &lt;strong&gt;Call hierarchies&lt;/strong&gt;:&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;7 filter call hierarchy 521335&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.8/images/7-filter-call-hierarchy-521335.png&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Another filter to remove test code exists for &lt;strong&gt;Quick type hierarchies&lt;/strong&gt;:&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;8 filter quick type hierarchy 521333&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.8/images/8-filter-quick-type-hierarchy-521333.png&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Test source folders will be preselected in the &lt;strong&gt;New JUnit Test Case&lt;/strong&gt; wizard&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;9 new junit 332602&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.8/images/9-new-junit-332602.png&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;In Run and Debug configurations, the &lt;strong&gt;Classpath&lt;/strong&gt; tab (or &lt;strong&gt;Dependencies&lt;/strong&gt; tab when launching with Java 9) contains a new option &lt;strong&gt;Exclude Test Code&lt;/strong&gt;, that is automatically preselected when launching a Java Application from a source folder that is not marked to contain test sources:&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;10 launching 529321&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.8/images/10-launching-529321.png&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;When launching with Java 9 and this option is not selected, command line options will automatically be added so modules that have a non-empty classpath read the unnamed module.
-      These command line options are part of what can be overridden using the new &lt;strong&gt;Override Dependencies&lt;/strong&gt; button.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect4&quot;&gt;
-      &lt;h5 id=&quot;sort-library-entries-alphabetically-in-package-explorer&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#sort-library-entries-alphabetically-in-package-explorer&quot;&gt;&lt;/a&gt;Sort library entries alphabetically in Package Explorer&lt;/h5&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;The content of libraries are displayed in the order of the classpath.
-      This makes it difficult to find specific libraries by their name, especially when projects have many dependencies.
-      The library entries can now be sorted alphabetically when setting the preference &lt;strong&gt;Sort library entries alphabetically in Package Explorer&lt;/strong&gt; on the &lt;strong&gt;Java &amp;gt; Appearance&lt;/strong&gt; preference page:&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;jdt sort library pref&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.8/images/jdt_sort_library_pref.png&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;jdt library entries unsorted&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.8/images/jdt_library_entries_unsorted.png&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;The default for this preference is &lt;strong&gt;OFF&lt;/strong&gt;.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect4&quot;&gt;
-      &lt;h5 id=&quot;generate-dialogs-use-verbs-instead-of-ok&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#generate-dialogs-use-verbs-instead-of-ok&quot;&gt;&lt;/a&gt;Generate dialogs use verbs instead of OK&lt;/h5&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;The &lt;strong&gt;Generate…​&lt;/strong&gt; dialogs of the Java tools have been adapted to use verbs instead of OK.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect3&quot;&gt;
-      &lt;h4 id=&quot;java-compiler&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#java-compiler&quot;&gt;&lt;/a&gt;Java Compiler&lt;/h4&gt;
-      &lt;div class=&quot;sect4&quot;&gt;
-      &lt;h5 id=&quot;option-for-regex-in-module-declaration-search&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#option-for-regex-in-module-declaration-search&quot;&gt;&lt;/a&gt;Option for Regex in Module Declaration Search&lt;/h5&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;This is an &lt;strong&gt;experimental&lt;/strong&gt; support provided to allow the regular expression usage in search field while searching for module declaration.
-      This can be considered as a wrapper of the API change.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;To invoke the regular expression search from the search field under &lt;strong&gt;Java Search&lt;/strong&gt;, start the expression with &quot;/r &quot; i.e, a slash &amp;amp;apos/&amp;amp;apos, the letter &amp;amp;aposr&amp;amp;apos and a blank &amp;amp;apos &amp;amp;apos (not tab) followed by a regex, an example of which is shown below:&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;mod.regex.trap&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.8/images/mod.regex.trap.png&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;In the above example, all the characters trailing &quot;/r &quot; form a Java regular expression to denote a module name which starts with zero or more &amp;amp;aposn’s followed by the string &quot;.ver&quot; and followed again by zero or more number of arbitrary characters.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Another example would be to search for all modules that start with &lt;code&gt;&lt;code&gt;java.x&lt;/code&gt;&lt;/code&gt; followed by zero or more characters which is given by the regular expression &lt;code&gt;&lt;code&gt;/r java\.x.*&lt;/code&gt;&lt;/code&gt; - note the backslash for . to consider this as a &quot;normal&quot; character instead of the special regex].&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Yet another example would be search for all module names that start with j followed by zero or more characters and ending with .xml which in regex language translates to &lt;code&gt;&lt;code&gt;/r j.*\.xml&lt;/code&gt;&lt;/code&gt;.
-      Please note that here the first &amp;amp;apos.&amp;amp;apos is the special regex character while the second &amp;amp;apos.&amp;amp;apos is escaped to denote that this is a normal character.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: You should use this only for &lt;strong&gt;Declarations&lt;/strong&gt; search for modules as it is not implemented for module references.
-      Selecting &lt;strong&gt;All occurrences&lt;/strong&gt; in conjunction with regex will default to finding only the &lt;strong&gt;Declarations&lt;/strong&gt; matching the regex ignoring the references.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect3&quot;&gt;
-      &lt;h4 id=&quot;nonnullbydefault-per-module&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#nonnullbydefault-per-module&quot;&gt;&lt;/a&gt;@NonNullByDefault per module&lt;/h4&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;If a module is annotated with &lt;code&gt;&lt;code&gt;@NonNullByDefault&lt;/code&gt;&lt;/code&gt;, the compiler will interpret this as the global default for all types in this module:&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;listingblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;pre class=&quot;prettyprint highlight&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;@org.eclipse.jdt.annotation.NonNullByDefault
-      module my.nullsafe.mod { ...&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Note, however, that this requires an annotation type declared either with target &lt;code&gt;&lt;code&gt;ElementType.MODULE&lt;/code&gt;&lt;/code&gt;, or with no explicit target at all.
-      Versions 2.2.0 and greater of bundle &lt;code&gt;&lt;code&gt;org.eclipse.jdt.annotation&lt;/code&gt;&lt;/code&gt; use the latter strategy and hence support a module-wide non-null default.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect4&quot;&gt;
-      &lt;h5 id=&quot;nonnullbydefault-improvements&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#nonnullbydefault-improvements&quot;&gt;&lt;/a&gt;@NonNullByDefault improvements&lt;/h5&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;When using annotation-based null analysis, there are now more ways to define which unannotated locations are implicitly assumed to be annotated as &lt;code&gt;&lt;code&gt;@NonNull&lt;/code&gt;&lt;/code&gt;:&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;ulist&quot;&gt;
-      &lt;ul&gt;
-      &lt;li&gt;
-      &lt;p&gt;&lt;code&gt;&lt;code&gt;@NonNullByDefault&lt;/code&gt;&lt;/code&gt; annotations based on enum &lt;code&gt;&lt;code&gt;DefaultLocation&lt;/code&gt;&lt;/code&gt; can also be used if the primary nullness annotations are declaration annotations (previously this was supported only for &lt;code&gt;&lt;code&gt;TYPE_USE&lt;/code&gt;&lt;/code&gt; annotations).&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-      &lt;p&gt;Support for &lt;code&gt;&lt;code&gt;@NonNullByDefault&lt;/code&gt;&lt;/code&gt; annotations that are targeted at parameters has been implemented.&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-      &lt;p&gt;Multiple different &lt;code&gt;&lt;code&gt;@NonNullByDefault&lt;/code&gt;&lt;/code&gt; annotations (especially with different default values) may be placed at the same target, in which case the sets of affected locations are merged.&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-      &lt;p&gt;Annotations which use a meta annotation &lt;code&gt;&lt;code&gt;@TypeQualifierDefault&lt;/code&gt;&lt;/code&gt; instead of a &lt;code&gt;&lt;code&gt;DefaultLocation&lt;/code&gt;&lt;/code&gt;-based specification are now understood, too, e.g. &lt;code&gt;&lt;code&gt;@org.springframework.lang.NonNullApi&lt;/code&gt;&lt;/code&gt;.&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;/ul&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Version 2.2.0 of bundle &lt;code&gt;&lt;code&gt;org.eclipse.jdt.annotation&lt;/code&gt;&lt;/code&gt; contains an annotation type &lt;code&gt;&lt;code&gt;NonNullByDefault&lt;/code&gt;&lt;/code&gt; that can be applied to parameter and module declarations (in addition to the previously allowed targets).&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect4&quot;&gt;
-      &lt;h5 id=&quot;test-sources-2&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#test-sources-2&quot;&gt;&lt;/a&gt;Test sources&lt;/h5&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;There is now support for running Java annotation processors on test sources.
-      The output folder for files generated for these can be configured in the project properties in &lt;strong&gt;Java Compiler &amp;gt; Annotation Processing&lt;/strong&gt; as &lt;strong&gt;Generated test source directory&lt;/strong&gt;.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;testsources apt 531072&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.8/images/testsources-apt-531072.png&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect4&quot;&gt;
-      &lt;h5 id=&quot;new-preference-added-compiler-compliance-does-not-match-used-jre&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#new-preference-added-compiler-compliance-does-not-match-used-jre&quot;&gt;&lt;/a&gt;New preference added &quot;Compiler Compliance does not match used JRE&quot;&lt;/h5&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;A new preference &lt;strong&gt;Compiler Compliance does not match used JRE&lt;/strong&gt; is added to &lt;strong&gt;Compiler Preference Building Page&lt;/strong&gt;.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;This preference indicates the severity of the problem reported when project’s used JRE does not match the compiler compliance level selected.
-      (e.g. a project using JRE 1.8 as JRE System Library, and the compiler compliance is set to 1.7).&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;The value of this preference is by default WARNING.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;If the JRE being used is 9 or above and the &lt;strong&gt;--release&lt;/strong&gt; option is selected and even if the compiler compliance does not match the JRE being used, this option will be ignored.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;This preference can be set as shown below:&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;jdt compiler compliance mismatch JRE&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.8/images/jdt_compiler_compliance_mismatch_JRE.png&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect3&quot;&gt;
-      &lt;h4 id=&quot;java-formatter&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#java-formatter&quot;&gt;&lt;/a&gt;Java Formatter&lt;/h4&gt;
-      &lt;div class=&quot;sect4&quot;&gt;
-      &lt;h5 id=&quot;new-formatter-profile-page&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#new-formatter-profile-page&quot;&gt;&lt;/a&gt;New formatter profile page&lt;/h5&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;The formatter profile preference page (&lt;strong&gt;Java &amp;gt; Code Style &amp;gt; Formatter &amp;gt; Edit…​&lt;/strong&gt;) has a new look which makes it much easier to set preferences for formatting Java code.
-      Instead of multiple tabs, all preferences are presented in an expandable tree.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;formatter profile overview&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.8/images/formatter-profile-overview.png&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;You can use &lt;strong&gt;filtering&lt;/strong&gt; to display only the settings with names matching a specific phrase. Filtering by values is also possible (prefix a value filter with a tilde).&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;formatter profile filtering&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.8/images/formatter-profile-filtering.png&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Most sections have a &lt;strong&gt;Modify all&lt;/strong&gt; button in their header that lets you set all their preferences to the same value with one click.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;formatter profile modify all&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.8/images/formatter-profile-modify-all.png&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Some preferences have more convenient controls. For example, number values can be easily modified with arrow buttons.
-      Wrap policy settings are controlled by simple toolbars so that you can see and compare multiple policies at once.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;formatter profile wrap settings&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.8/images/formatter-profile-wrap-settings.png&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;In the preview panel you can now use your own code to immediately see how it will be affected by the modified settings.
-      You can also see the raw form of standard preview samples and make temporary modifications to them.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;formatter profile preview&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.8/images/formatter-profile-preview.png&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect4&quot;&gt;
-      &lt;h5 id=&quot;formatter-align-javadoc-tags-in-columns&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#formatter-align-javadoc-tags-in-columns&quot;&gt;&lt;/a&gt;Formatter: align Javadoc tags in columns&lt;/h5&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;The formatter can now &lt;strong&gt;align names and/or descriptions&lt;/strong&gt; in Javadoc tags in new ways.
-      The formatter profile editor is available for selection, under &lt;strong&gt;Comments &amp;gt; Javadoc&lt;/strong&gt;.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;formatter javadoc prefs&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.8/images/formatter-javadoc-prefs.png&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;For example, the &lt;strong&gt;Align descriptions, grouped by type&lt;/strong&gt; setting is now used in the built-in Eclipse profile.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;formatter javadoc preview&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.8/images/formatter-javadoc-preview.png&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;The setting previously known as &lt;strong&gt;Indent Javadoc tags&lt;/strong&gt; is now called &lt;strong&gt;Align descriptions to tag width&lt;/strong&gt;.
-      The two settings related to &lt;strong&gt;@param tags&lt;/strong&gt; also had their labels changed to better describe what they do.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect4&quot;&gt;
-      &lt;h5 id=&quot;java-code-formatter-preferences-now-styled-for-the-dark-theme&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#java-code-formatter-preferences-now-styled-for-the-dark-theme&quot;&gt;&lt;/a&gt;Java code formatter preferences now styled for the dark theme&lt;/h5&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;The formatter preferences tree styling has been fixed to work properly in the dark theme.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect4&quot;&gt;
-      &lt;h5 id=&quot;new-cleanup-action-remove-redundant-modifiers&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#new-cleanup-action-remove-redundant-modifiers&quot;&gt;&lt;/a&gt;New Cleanup Action &quot;Remove redundant modifiers&quot;&lt;/h5&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;The new cleanup action &quot;Remove redundant modifiers&quot; removes unnecessary modifiers on types, methods and fields.
-      The following modifiers are removed:&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;ulist&quot;&gt;
-      &lt;ul&gt;
-      &lt;li&gt;
-      &lt;p&gt;Interface field declarations: &lt;code&gt;&lt;code&gt;public&lt;/code&gt;&lt;/code&gt;, &lt;code&gt;&lt;code&gt;static&lt;/code&gt;&lt;/code&gt;, &lt;code&gt;&lt;code&gt;final&lt;/code&gt;&lt;/code&gt;&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-      &lt;p&gt;Interface method declarations: &lt;code&gt;&lt;code&gt;public&lt;/code&gt;&lt;/code&gt;, &lt;code&gt;&lt;code&gt;abstract&lt;/code&gt;&lt;/code&gt;&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-      &lt;p&gt;Nested interfaces: &lt;code&gt;&lt;code&gt;static&lt;/code&gt;&lt;/code&gt;&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-      &lt;p&gt;Method declarations in final classes: &lt;code&gt;&lt;code&gt;final&lt;/code&gt;&lt;/code&gt;&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;/ul&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;The cleanup action can be configured as save action on the &lt;strong&gt;Unnecessary Code&lt;/strong&gt; page.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;jdt remove redundant modifiers&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.8/images/jdt_remove_redundant_modifiers.png&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect3&quot;&gt;
-      &lt;h4 id=&quot;debug&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#debug&quot;&gt;&lt;/a&gt;Debug&lt;/h4&gt;
-      &lt;div class=&quot;sect4&quot;&gt;
-      &lt;h5 id=&quot;launch-configuration-prototypes-for-java-launch-configurations&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#launch-configuration-prototypes-for-java-launch-configurations&quot;&gt;&lt;/a&gt;Launch configuration prototypes for Java Launch Configurations&lt;/h5&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;A Java Launch Configuration can now be based on a prototype.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;prototype java launch configuration&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.8/images/prototype-java-launch-configuration.png&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;A prototype seeds attributes in its associated Java Launch Configurations with the settings specified in the Prototype tab.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;prototype tab java launch configuration 1&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.8/images/prototype-tab-java-launch-configuration-1.png&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Once a Java Launch Configuration has been created, you can override any initial settings from the prototype.
-      You can also reset the settings of a Java Launch Configuration with the ones from its prototype.
-      A Java Launch Configuration maintains a link to its prototype, but is a complete stand-alone launch configuration that can be launched, exported, shared, etc.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;prototype tab java launch configuration 2&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.8/images/prototype-tab-java-launch-configuration-2.png&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect4&quot;&gt;
-      &lt;h5 id=&quot;advanced-source-lookup-implementation&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#advanced-source-lookup-implementation&quot;&gt;&lt;/a&gt;Advanced source lookup implementation&lt;/h5&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;More precise &lt;strong&gt;advanced&lt;/strong&gt; source lookup implementation, particularly useful when debugging applications that load classes dynamically at runtime.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;New &lt;code&gt;&lt;code&gt;org.eclipse.jdt.launching.workspaceProjectDescribers&lt;/code&gt;&lt;/code&gt; extension point can be used to enable advanced source lookup for projects with non-default layout, like PDE Plug-In projects.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;New &lt;code&gt;&lt;code&gt;org.eclipse.jdt.launching.sourceContainerResolvers&lt;/code&gt;&lt;/code&gt; can be used to download sources jar files from remote artifact repositories, like Maven Central or Eclipse P2.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Advanced source lookup affects debug launches only and can be enabled or disabled with &lt;strong&gt;Java &amp;gt; Debug &amp;gt; Use advanced source lookup (JRE 1.5 and higher)&lt;/strong&gt; preference option:&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;advanced source lookup&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.8/images/advanced-source-lookup.png&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect4&quot;&gt;
-      &lt;h5 id=&quot;debugger-listens-to-thread-name-changes&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#debugger-listens-to-thread-name-changes&quot;&gt;&lt;/a&gt;Debugger listens to thread name changes&lt;/h5&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;&lt;strong&gt;Debug view&lt;/strong&gt; now automatically updates thread names if they are changed in the debuggee JVM. This shows live information for worker instances, as described above.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Technically speaking, Java debugger automatically adds a new (user invisible) breakpoint in the JVM and notifies clients (like Debug view) on a breakpoint hit.
-      If this behavior is undesired for some reason, product owners can disable it via product customization.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;The property value is: &lt;strong&gt;org.eclipse.jdt.debug.ui/org.eclipse.jdt.debug.ui.javaDebug.ListenOnThreadNameChanges=false&lt;/strong&gt;&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect4&quot;&gt;
-      &lt;h5 id=&quot;value-displayed-for-method-exit-and-exception-breakpoints&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#value-displayed-for-method-exit-and-exception-breakpoints&quot;&gt;&lt;/a&gt;Value displayed for method exit and exception breakpoints&lt;/h5&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;When a &lt;strong&gt;method exit breakpoint&lt;/strong&gt; is hit, the value being returned is now shown in the variables view.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;returningvalue&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.8/images/returningvalue.png&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Similarly, when an &lt;strong&gt;exception breakpoint&lt;/strong&gt; is hit, the exception being thrown is shown.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;throwingexception&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.8/images/throwingexception.png&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect4&quot;&gt;
-      &lt;h5 id=&quot;display-view-renamed-to-debug-shell&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#display-view-renamed-to-debug-shell&quot;&gt;&lt;/a&gt;Display view renamed to Debug Shell&lt;/h5&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;The &lt;strong&gt;Display view&lt;/strong&gt; has been renamed to &lt;strong&gt;Debug Shell&lt;/strong&gt; to better match the features and purpose of this view.
-      Also, a java comment is shown in the Debug Shell on fresh open that explains when and how to use it.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;debugShell&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.8/images/debugShell.png&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect2&quot;&gt;
-      &lt;h3 id=&quot;and-more&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#and-more&quot;&gt;&lt;/a&gt;And more…​&lt;/h3&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;You can find more noteworthy updates in on &lt;a href=&quot;https://tools.jboss.org/documentation/whatsnew/jbosstools/4.6.0.Final.html&quot;&gt;this page&lt;/a&gt;.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect1&quot;&gt;
-      &lt;h2 id=&quot;what-is-next&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#what-is-next&quot;&gt;&lt;/a&gt;What is next?&lt;/h2&gt;
-      &lt;div class=&quot;sectionbody&quot;&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Having JBoss Tools 4.6.0 and Red Hat Developer Studio 12.0 out we are already working on the next release for Eclipse 2018-09.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Enjoy!&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Jeff Maury&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;&lt;/div&gt;</description>
-	<pubDate>Tue, 17 Jul 2018 15:43:40 +0000</pubDate>
-</item>
-<item>
-	<title>itemis: Xtext editors for binary files</title>
-	<guid isPermaLink="true">https://blogs.itemis.com/en/xtext-editors-for-binary-files</guid>
-	<link>https://blogs.itemis.com/en/xtext-editors-for-binary-files</link>
-	<description>&lt;p&gt; What does &quot;4 + 1&quot; mean? Well, for example itemis employees have been developing a Java bytecode editor with Xtext. This editor allows the contents of &lt;code&gt;.class&lt;/code&gt; files to be made visible and editable.&lt;br /&gt;In the first part of this article I explained how the JBC editor is used. In this second part I want to discuss the technical problems that arise when you want to make a binary file editable with an Xtext-based editor. &lt;/p&gt; 
-&lt;p&gt;The first issue to solve for a text editor for binary files is to convert the binary data into a textual format without the text editor being involved. This is done by replacing the editor with an &lt;code&gt;IDocumentProvider&lt;/code&gt;, which then performs appropriate transformations when loading and saving. As usual in Xtext this is done by dependency injection and registration within the UI module:&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; 
-&lt;pre class=&quot;prettyprint&quot;&gt;package com.itemis.jbc.ui&lt;br /&gt;&lt;br /&gt;import com.itemis.jbc.ui.custom.JBCDocumentProvider&lt;br /&gt;import org.eclipse.xtext.ui.editor.model.XtextDocumentProvider&lt;br /&gt;&lt;br /&gt;@FinalFieldsConstructor&lt;br /&gt;class JBCUiModule extends AbstractJBCUiModule {&lt;br /&gt;    def Class&amp;lt;? extends XtextDocumentProvider&amp;gt; bindXtextDocumentProvider() {&lt;br /&gt;        JBCDocumentProvider&lt;br /&gt;    }&lt;br /&gt;}&lt;/pre&gt; 
-&lt;p&gt; &lt;br /&gt;The &lt;code&gt;JBCDocumentProvider&lt;/code&gt; now overrides the two methods &lt;code&gt;setDocumentContent&lt;/code&gt; and &lt;code&gt;doSaveDocument&lt;/code&gt;. The first method converts the binary stream into text, while the second returns binary content from the model the editor obtained from the &lt;code&gt;XTextDocument&lt;/code&gt;.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; 
-&lt;pre class=&quot;prettyprint&quot;&gt;package com.itemis.jbc.ui.custom&lt;br /&gt;&lt;br /&gt;import com.itemis.jbc.binary.ByteCodeWriter&lt;br /&gt;import com.itemis.jbc.jbc.ClassFile&lt;br /&gt;import java.io.ByteArrayInputStream&lt;br /&gt;import java.io.InputStream&lt;br /&gt;import org.eclipse.core.runtime.CoreException&lt;br /&gt;import org.eclipse.core.runtime.IProgressMonitor&lt;br /&gt;import org.eclipse.jface.text.IDocument&lt;br /&gt;import org.eclipse.ui.IFileEditorInput&lt;br /&gt;import org.eclipse.xtext.resource.XtextResource&lt;br /&gt;import org.eclipse.xtext.ui.editor.model.XtextDocument&lt;br /&gt;import org.eclipse.xtext.ui.editor.model.XtextDocumentProvider&lt;br /&gt;import org.eclipse.xtext.util.concurrent.IUnitOfWork&lt;br /&gt;&lt;br /&gt;class JBCDocumentProvider extends XtextDocumentProvider {&lt;br /&gt;    override protected setDocumentContent(IDocument document, InputStream contentStream,&lt;br /&gt;            String encoding) throws CoreException {
-&lt;span style=&quot;font-weight: 400;&quot;&gt;        document.set(new JBCInputStreamContentReader().readContent(contentStream, encoding))&lt;br /&gt;    }&lt;/span&gt;&lt;br /&gt;    &lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;override protected doSaveDocument(IProgressMonitor monitor, Object element,&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;            &lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;IDocument document, boolean overwrite) throws CoreException {&lt;br /&gt;        if (element instanceof IFileEditorInput) {&lt;br /&gt;            if (document instanceof XtextDocument) {&lt;br /&gt;                if (element.file.exists &amp;amp;&amp;amp; element.file.name.endsWith(&quot;.class&quot;)) {&lt;br /&gt;                    document.readOnly(new IUnitOfWork.Void&amp;lt;XtextResource&amp;gt;() {&lt;br /&gt;                        override process(XtextResource resource) throws Exception {&lt;br /&gt;                            val ast = resource.parseResult.rootASTElement&lt;br /&gt;                            element.file.setContents(new ByteArrayInputStream(&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;ByteCodeWriter.writeClassFile(ast as ClassFile)),&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;                                    true, true, monitor))});&lt;br /&gt;                    return;&lt;br /&gt;                }&lt;br /&gt;            }&lt;br /&gt;        }&lt;br /&gt;        super.doSaveDocument(monitor, element, document, overwrite)&lt;br /&gt;    }&lt;br /&gt;}&lt;/span&gt;&lt;/pre&gt; 
-&lt;p&gt; &lt;br /&gt;This is enough to fool the Xtext-based editor, as it provides it with a plain text file, but the result is not quite satisfactory. This is because the editor compares the textual content with the binary data obtained from the &lt;code&gt;.class&lt;/code&gt; file to highlight changed regions. This happens because the comparison algorithm does not get the file content directly from the editor, but instead requests &lt;code&gt;IFileEditorInput&lt;/code&gt; from the file content and &lt;code&gt;getStorage&lt;/code&gt; via the method to get the &lt;code&gt;InputStream&lt;/code&gt;.&lt;br /&gt; &lt;/p&gt; 
-&lt;p&gt;&lt;img alt=&quot;NoProxyForIFileInput&quot; height=&quot;527&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/NoProxyForIFileInput.png?t=1531400974302&amp;amp;width=660&amp;amp;height=527&amp;amp;name=NoProxyForIFileInput.png&quot; style=&quot;width: 660px; display: block; margin-left: auto; margin-right: auto;&quot; width=&quot;660&quot; /&gt;&lt;/p&gt; 
-&lt;p&gt;To make the comparison meaningful, this stream also has to be transformed in the same way as was done when creating the &lt;code&gt;IDocument&lt;/code&gt;. To do this, the &lt;code&gt;doSetInput&lt;/code&gt; (&lt;code&gt;IEditorInput input&lt;/code&gt;) method is overridden by the &lt;code&gt;JBCEditor&lt;/code&gt;, so that the set input is packaged in a dynamic proxy.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; 
-&lt;pre class=&quot;prettyprint&quot;&gt;package com.itemis.jbc.ui.custom&lt;br /&gt;&lt;br /&gt;import java.io.InputStreamReader&lt;br /&gt;import java.lang.reflect.InvocationHandler&lt;br /&gt;import java.lang.reflect.Method&lt;br /&gt;import java.lang.reflect.Proxy&lt;br /&gt;import org.eclipse.core.resources.IEncodedStorage&lt;br /&gt;import org.eclipse.core.resources.IStorage&lt;br /&gt;import org.eclipse.core.runtime.CoreException&lt;br /&gt;import org.eclipse.ui.IEditorInput&lt;br /&gt;import org.eclipse.ui.IFileEditorInput&lt;br /&gt;import org.eclipse.xtext.ui.editor.XtextEditor&lt;br /&gt;import org.eclipse.xtext.util.StringInputStream&lt;br /&gt;&lt;br /&gt;class JBCEditor extends XtextEditor {&lt;br /&gt;    override protected doSetInput(IEditorInput input) throws CoreException {&lt;br /&gt;        if (input instanceof IFileEditorInput) {&lt;br /&gt;            if (input.file.name.endsWith(&quot;.class&quot;)) {&lt;br /&gt;                super.doSetInput(input.proxy)&lt;br /&gt;                return&lt;br /&gt;            }&lt;br /&gt;        }&lt;br /&gt;        super.doSetInput(input)&lt;br /&gt;    }&lt;br /&gt;    def private IFileEditorInput proxy(IFileEditorInput editorInput) {&lt;br /&gt;        Proxy.newProxyInstance(this.class.classLoader, #[IFileEditorInput],&lt;br /&gt;                new IFileEditorInputHandler(editorInput)) as IFileEditorInput&lt;br /&gt;    }&lt;br /&gt;} &lt;/pre&gt; 
-&lt;p&gt;&lt;br /&gt;The latter returns another dynamic proxy for the &lt;code&gt;getStorage&lt;/code&gt; query, which converts the file content supplied by &lt;code&gt;getContents&lt;/code&gt; into textual format.&lt;br /&gt; &lt;/p&gt; 
-&lt;pre class=&quot;prettyprint&quot;&gt;package class IFileEditorInputHandler implements InvocationHandler {&lt;br /&gt;    private final IFileEditorInput original&lt;br /&gt;&lt;br /&gt;    new(IFileEditorInput original) {&lt;br /&gt;        this.original = original&lt;br /&gt;    }&lt;br /&gt;    override invoke(Object proxy, Method method, Object[] args) throws Throwable {&lt;br /&gt;        if (method.name.equals(&quot;getStorage&quot;)) {&lt;br /&gt;            return (method.invoke(original, args) as IStorage).proxy&lt;br /&gt;        } else {&lt;br /&gt;            return method.invoke(original, args)&lt;br /&gt;        }&lt;br /&gt;    }&lt;br /&gt;    def private IStorage proxy(IStorage storage) {&lt;br /&gt;        Proxy.newProxyInstance(this.class.classLoader, #[IStorage],&lt;br /&gt;                new IStorageHandler(storage)) as IStorage&lt;br /&gt;    }&lt;br /&gt;}&lt;/pre&gt; 
-&lt;pre class=&quot;prettyprint&quot;&gt;package class IStorageHandler implements InvocationHandler {&lt;br /&gt;    private final IStorage original&lt;br /&gt;&lt;br /&gt;    new(IStorage original) {&lt;br /&gt;        this.original = original&lt;br /&gt;    }&lt;br /&gt;    override invoke(Object proxy, Method method, Object[] args) throws Throwable {&lt;br /&gt;        if (method.name.equals(&quot;getContents&quot;) &amp;amp;&amp;amp; method.parameterCount === 0) {&lt;br /&gt;            val reader = new InputStreamReader(original.contents)&lt;br /&gt;            try {&lt;br /&gt;                val content = new JBCInputStreamContentReader().readContent(original.contents&lt;br /&gt;                        (original as IEncodedStorage).charset)&lt;br /&gt;                return new StringInputStream(content)&lt;br /&gt;            } finally {&lt;br /&gt;                reader.close()&lt;br /&gt;            }&lt;br /&gt;        } else {&lt;br /&gt;            return method.invoke(original, args)&lt;br /&gt;        }&lt;br /&gt;    }&lt;br /&gt;}&lt;/pre&gt; 
-&lt;p&gt; &lt;br /&gt;As a result the &lt;code&gt;editor.getStorage().GetContents()&lt;/code&gt; call returns the same content as was supplied by the &lt;code&gt;document.get()&lt;/code&gt;, and the comparison of the document content with that from the file now yields the expected results.&lt;br /&gt; &lt;/p&gt; 
-&lt;p&gt;&lt;img alt=&quot;WithProxyForIFileInput&quot; height=&quot;377&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/WithProxyForIFileInput.png?t=1531400974302&amp;amp;width=660&amp;amp;height=377&amp;amp;name=WithProxyForIFileInput.png&quot; style=&quot;width: 660px; display: block; margin-left: auto; margin-right: auto;&quot; width=&quot;660&quot; /&gt;&lt;/p&gt; 
-&lt;p&gt;The editor implemented here is quite simple, in that each &lt;code&gt;.class&lt;/code&gt; file is considered individually: there is no global scope to allow references between multiple files to be resolved and validated. This means that it isn’t easy to develop an entire project directly in class-file-format.&lt;/p&gt; 
-&lt;p&gt;However, this is not a fundamental problem, merely a design decision. The editor is explicitly intended for editing individual &lt;code&gt;.class&lt;/code&gt; files. There is nothing wrong, however, with the idea of extending the techniques to other binaries in order to create useful editors for them without an explicit intermediate textual format. These could be stored in files, and these files be linked by references within a global scope.&lt;/p&gt;  
-&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;https://track.hubspot.com/__ptq.gif?a=761475&amp;amp;k=14&amp;amp;r=https%3A%2F%2Fblogs.itemis.com%2Fen%2Fxtext-editors-for-binary-files&amp;amp;bu=https%253A%252F%252Fblogs.itemis.com&amp;amp;bvt=rss&quot; style=&quot;width: 1px!important;&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Fri, 13 Jul 2018 12:10:00 +0000</pubDate>
-	<author>adeutsch@itemis.de (Arne Deutsch)</author>
-</item>
-<item>
-	<title>vert.x project: Eclipse Vert.x 3.5.3</title>
-	<guid isPermaLink="true">https://vertx.io/blog/eclipse-vert-x-3-5-3</guid>
-	<link>https://vertx.io/blog/eclipse-vert-x-3-5-3</link>
-	<description>&lt;article&gt;&lt;p&gt;We have just released Vert.x 3.5.3, a bug fix release of Vert.x 3.5.x.&lt;/p&gt;
-&lt;p&gt;Since the release of Vert.x 3.5.2, quite a few bugs have been reported. We would like to thank you all for reporting these issues.&lt;/p&gt;
-&lt;p&gt;Vert.x 3.5.3 release notes:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/vert-x3/wiki/wiki/3.5.3-Release-Notes&quot;&gt;https://github.com/vert-x3/wiki/wiki/3.5.3-Release-Notes&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The event bus client using the SockJS bridge are available from NPM, Bower and as a WebJar:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.npmjs.com/package/vertx3-eventbus-client&quot;&gt;https://www.npmjs.com/package/vertx3-eventbus-client&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/vert-x3/vertx-bus-bower&quot;&gt;https://github.com/vert-x3/vertx-bus-bower&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.webjars.org/&quot;&gt;http://www.webjars.org/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Docker images are also available on the &lt;a href=&quot;https://hub.docker.com/u/vertx/&quot;&gt;Docker Hub&lt;/a&gt;. The Vert.x distribution is also available from &lt;a href=&quot;http://sdkman.io/index.html&quot;&gt;SDKMan&lt;/a&gt; and &lt;a href=&quot;http://brew.sh/&quot;&gt;HomeBrew&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The artifacts have been deployed to &lt;a href=&quot;http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22io.vertx%22%20AND%20v%3A%223.5.2%22&quot;&gt;Maven Central&lt;/a&gt; and you can get the distribution on &lt;a href=&quot;https://bintray.com/vertx/downloads/distribution/3.5.2/view&quot;&gt;Bintray&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Happy coding and see you soon on our user or dev &lt;a href=&quot;https://vertx.io/community&quot;&gt;channels&lt;/a&gt;.&lt;/p&gt;
-&lt;/article&gt;</description>
-	<pubDate>Fri, 13 Jul 2018 00:00:00 +0000</pubDate>
-</item>
-<item>
-	<title>Eclipse Announcements: Call for submissions for EclipseCon Europe 2018</title>
-	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/ebujap_ybxA/europe2018</guid>
-	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/ebujap_ybxA/europe2018</link>
-	<description>Be part of the EclipseCon Europe program. Submit your talks by July 16th.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/ebujap_ybxA&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Fri, 06 Jul 2018 15:00:00 +0000</pubDate>
 </item>
 
 </channel>
